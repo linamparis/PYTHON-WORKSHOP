@@ -1,0 +1,215 @@
+{
+ "journeys" : [
+    {
+     "tipo" : "mañana",
+     "director" : "Mateo"
+     "grupos" : [
+        {
+            "codigo" : "1a"
+            "estudiantes": [
+                    {
+                        "cod": "01",
+                        "nombre": "ana"
+                        "edad": 12
+                    },
+                    {
+                        "cod": "02",
+                        "nombre": "Claudia"
+                        "edad": 11
+                    },
+                    {
+                        "cod": "03",
+                        "nombre": "Patricia"
+                        "edad": 11
+                    },
+                     {
+                        "cod": "04",
+                        "nombre": "Isabel"
+                        "edad": 12
+                    },
+
+                     {
+                        "cod": "05",
+                        "nombre": "Natalia"
+                        "edad": 11
+                    },
+                ]
+
+            "codigo" : "2a"
+            "estudiantes": [
+
+                  {
+                        "cod": "01",
+                        "nombre": "Pedro"
+                        "edad": 12
+                    },
+                    {
+                        "cod": "02",
+                        "nombre": "Claudia"
+                        "edad": 13
+                    },
+                    {
+                        "cod": "03",
+                        "nombre": "Patricia"
+                        "edad": 13
+                    },
+                     {
+                        "cod": "04",
+                        "nombre": "Isabel"
+                        "edad": 12
+                    },
+
+                     {
+                        "cod": "05",
+                        "nombre": "Natalia"
+                        "edad": 12
+                    },
+
+                  ]
+                   "codigo" : "3a"
+                   "estudiantes": [
+
+                             {
+                                "cod": "01",
+                                "nombre": "Emilio"
+                                "edad": 13
+                             },
+                            {
+                                "cod": "02",
+                                "nombre": "Jeronimo"
+                                "edad": 13
+                            },
+                            {
+                                "cod": "03",
+                                "nombre": "Manuela"
+                                "edad": 13
+                            },
+                              {
+                                "cod": "04",
+                                "nombre": "Ana"
+                                "edad": 14
+                              },
+
+                             {
+                                "cod": "05",
+                                "nombre": "Antonio"
+                                "edad": 13
+                             },
+
+                  ]
+
+
+
+
+
+
+     },
+   ]
+
+     "tipo" : "tarde",
+     "director" : "Antonio"
+     "grupos" : [
+        {
+
+               "codigo" : "1a"
+               "estudiantes": [
+                    {
+                        "cod": "01",
+                        "nombre": "Mateo"
+                        "edad": 12
+                    },
+                    {
+                        "cod": "02",
+                        "nombre": "Dario"
+                        "edad": 11
+                    },
+                    {
+                        "cod": "03",
+                        "nombre": "Patricia"
+                        "edad": 11
+                    },
+                     {
+                        "cod": "04",
+                        "nombre": "Isabel"
+                        "edad": 12
+                    },
+
+                     {
+                        "cod": "05",
+                        "nombre": "Natalia"
+                        "edad": 11
+                    },
+
+               ]
+
+
+                "codigo" : "2a"
+                "estudiantes": [
+
+                     {
+                        "cod": "01",
+                        "nombre": "Pedro"
+                        "edad": 12
+                    },
+                    {
+                        "cod": "02",
+                        "nombre": "Claudia"
+                        "edad": 13
+                    },
+                    {
+                        "cod": "03",
+                        "nombre": "Patricia"
+                        "edad": 13
+                    },
+                     {
+                        "cod": "04",
+                        "nombre": "Isabel"
+                        "edad": 12
+                    },
+
+                     {
+                        "cod": "05",
+                        "nombre": "Natalia"
+                        "edad": 12
+                    },
+
+                ]
+
+                 "codigo" : "3a"
+                   "estudiantes": [
+
+                             {
+                                "cod": "01",
+                                "nombre": "Emilio"
+                                "edad": 13
+                             },
+                            {
+                                "cod": "02",
+                                "nombre": "Jeronimo"
+                                "edad": 13
+                            },
+                            {
+                                "cod": "03",
+                                "nombre": "Manuela"
+                                "edad": 13
+                            },
+                              {
+                                "cod": "04",
+                                "nombre": "Ana"
+                                "edad": 14
+                              },
+
+                             {
+                                "cod": "05",
+                                "nombre": "Antonio"
+                                "edad": 13
+                             },
+
+                  ]
+
+       }
+      ]
+
+    },
+ ]
+ }
