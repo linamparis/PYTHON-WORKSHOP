@@ -27,17 +27,14 @@
                         "nombre": "Isabel"
                         "edad": 12
                     },
-
                      {
                         "cod": "05",
                         "nombre": "Natalia"
                         "edad": 11
                     },
                 ]
-
             "codigo" : "2a"
             "estudiantes": [
-
                   {
                         "cod": "01",
                         "nombre": "Pedro"
@@ -58,17 +55,14 @@
                         "nombre": "Isabel"
                         "edad": 12
                     },
-
                      {
                         "cod": "05",
                         "nombre": "Natalia"
                         "edad": 12
                     },
-
                   ]
                    "codigo" : "3a"
                    "estudiantes": [
-
                              {
                                 "cod": "01",
                                 "nombre": "Emilio"
@@ -89,22 +83,18 @@
                                 "nombre": "Ana"
                                 "edad": 14
                               },
-
                              {
                                 "cod": "05",
                                 "nombre": "Antonio"
                                 "edad": 13
                              },
-
                   ]
      },
    ]
-
      "tipo" : "tarde",
      "director" : "Antonio"
      "grupos" : [
         {
-
                "codigo" : "1a"
                "estudiantes": [
                     {
@@ -127,19 +117,14 @@
                         "nombre": "Isabel"
                         "edad": 12
                     },
-
                      {
                         "cod": "05",
                         "nombre": "Natalia"
                         "edad": 11
                     },
-
                ]
-
-
                 "codigo" : "2a"
                 "estudiantes": [
-
                      {
                         "cod": "01",
                         "nombre": "Pedro"
@@ -160,18 +145,14 @@
                         "nombre": "Isabel"
                         "edad": 12
                     },
-
                      {
                         "cod": "05",
                         "nombre": "Natalia"
                         "edad": 12
                     },
-
                 ]
-
                  "codigo" : "3a"
                    "estudiantes": [
-
                              {
                                 "cod": "01",
                                 "nombre": "Emilio"
@@ -192,18 +173,14 @@
                                 "nombre": "Ana"
                                 "edad": 14
                               },
-
                              {
                                 "cod": "05",
                                 "nombre": "Antonio"
                                 "edad": 13
                              },
-
                   ]
-
        }
       ]
-
     },
  ]
  }
