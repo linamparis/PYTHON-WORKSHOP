@@ -1,0 +1,156 @@
+openapi: 3.0.0
+info:
+  title: My school
+  description: This API consults the academic information of a school
+  termsOfService: https:localhost/myschool
+  contact:
+    name: Lina
+    url:  http://www.linaparis.com 
+    email: linamparis@gmail.com
+  license:
+    name: Apache 2.0
+    url:  https://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0  
+servers:
+  # Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/workshoplinaparis/school/1.0.0
+  - url: https://www.google.com/api
+    description: google Server   
+paths: 
+  /groups/:
+      get: 
+        summary: Returns a list of groups.
+        description: This endpoint consult the list of the groups.
+      
+        responses:
+          200:   
+            description: Successful request
+  /group/{groupId}:
+    get:
+      summary: Returns a group by ID.
+      parameters:
+        - name: groupId
+          in: path
+          required: true
+          description: Parameter group identifier
+          schema:
+            type: string
+            
+      responses:
+          200:   
+            description: Successful request
+            content:
+                application/jason: 
+                  schema:
+                    type: array 
+                    items:
+                      properties:
+                       idgroups:
+                           type: string
+                           example: 1A
+                       director:     
+                            type: string 
+                            example: Andres Lopez
+                       jornada:
+                            type: string 
+                            example: morning
+  /group/{idgroup}/students/{idstudents}:
+    get:
+      summary: Returns a user by ID.
+      parameters:
+        - name: idgroup
+          in: path
+          required: true
+          description: Parameter group identifier
+          schema:
+            type: string 
+        - name: idstudents
+          in: path
+          required: true
+          description: Parameter student identifier
+          schema:
+            type: string   
+      responses:
+          200:   
+            description: Successful request
+            content:
+                application/json: 
+                  schema:
+                    type: array
+                    items:
+                      properties:
+                       idgroups:
+                           type: array
+                           example: 1A
+                       students:     
+                            type: string 
+                            example: Alejandro Martinez
+                       jornada:
+                             type: string
+                             example: morning 
+                       director:
+                              type: string
+                              example: Ana Marquez
+                       notas:
+                              type: array
+                              example: [matematicas,3,ciencias,4,español,2  ]
+  /students/{idstudents}:
+      get:
+        summary: Returns a student by ID.
+        parameters:
+          - name: idstudents
+            in: path
+            required: true
+            description: Parameter student identifier
+            schema:
+              type: string 
+        responses:
+            200:   
+              description: Successful request
+              content:
+                  application/json: 
+                    schema:
+                      type: array
+                      items:
+                        properties:
+                         idgroups:
+                             type: array
+                             example: 1A
+                         namestudents:     
+                              type: string 
+                              example: Alejandro Martinez
+                         jornada:
+                               type: string
+                               example: morning 
+                         director:
+                                type: string
+                                example: Ana Marquez
+                         notas:
+                                type: array
+                                example: [matematicas,3,ciencias,4,español,2]
+  /students/: 
+    get:
+      summary: Returns list of underage students.
+      parameters:
+        - name: menores
+          in: query
+          required: true
+          description: years student
+          schema:
+            type: boolean
+      responses:
+          200:   
+            description: Successful request
+            content:
+                application/json: 
+                  schema:
+                    type: number
+                    items:
+                      properties:
+                       idgroups:
+                           type: string
+                           example: 1A
+                       namestudents:     
+                            type: string 
+                            example: Alejandro Martinez
