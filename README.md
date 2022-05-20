@@ -10,7 +10,8 @@ virtualenv venv
 ```
 
 ```sh
-.\venv\Scripts\activatepip 
+.\venv\Scripts\activate
 ```
 
 Set-ExecutionPolicy -Scope CurrentUser unrestricted
+uvicorn main:app --reload
