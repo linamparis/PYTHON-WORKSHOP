@@ -4,8 +4,7 @@ router = APIRouter()
 
 
 @router.get("/health", status_code=200)
-
-async def info():
+async def health():
      return {"message": "Ready"}
 
 
