@@ -1,4 +1,4 @@
-import json_repository.py
+from repositories import json_repository
 
 def find_all():
-    return get_groups()
+    return json_repository.get_groups()
